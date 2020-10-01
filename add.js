@@ -3,23 +3,23 @@
     const cardArray = [
         {
             name: 'duc',
-            img: 'images/Pokemon1.png'
+            img: 'images/Pokemon1.jpg'
         },
         {
             name: 'vietnam',
-            img: 'images/Pokemon3.png'
+            img: 'images/Pokemon3.jpg'
         },
         {
             name: 'phap',
-            img: 'images/Pokemon4.png'
+            img: 'images/Pokemon4.jpg'
         },
         {
             name: 'Pokemon2',
-            img: 'images/Pokemon2.png'
+            img: 'images/Pokemon2.jpg'
         },
         {
             name: 'nhat',
-            img: 'images/Pokemon5.png'
+            img: 'images/Pokemon5.jpg'
         },
         {
             name: 'mi',
@@ -27,23 +27,23 @@
         },
         {
             name: 'Pokemon1',
-            img: 'images/Pokemon1.png'
+            img: 'images/Pokemon1.jpg'
         },
         {
             name: 'vietnam',
-            img: 'images/Pokemon3.png'
+            img: 'images/Pokemon3.jpg'
         },
         {
             name: 'phap',
-            img: 'images/Pokemon4.png'
+            img: 'images/Pokemon4.jpg'
         },
         {
             name: 'han',
-            img: 'images/Pokemon2.png'
+            img: 'images/Pokemon2.jpg'
         },
         {
             name: 'nhat',
-            img: 'images/Pokemon5.png'
+            img: 'images/Pokemon5.jpg'
         },
         {
             name: 'mi',
@@ -58,12 +58,12 @@
     //         this.img = img;
     //     }
     // }
-    // let pokemon1 = new Pokemon("duc","image/Pokemon1.png");
-    // let pokemon2 = new Pokemon("han","image/Pokemon2.png");
+    // let pokemon1 = new Pokemon("duc","image/Pokemon1.jpg");
+    // let pokemon2 = new Pokemon("han","image/Pokemon2.jpg");
     // let pokemon3 = new Pokemon("my","image/my.png");
-    // let pokemon4 = new Pokemon("nhat","image/Pokemon5.png");
-    // let pokemon5 = new Pokemon("phap","image/Pokemon4.png");
-    // let pokemon6 = new Pokemon("vietnam","image/Pokemon3.png");
+    // let pokemon4 = new Pokemon("nhat","image/Pokemon5.jpg");
+    // let pokemon5 = new Pokemon("phap","image/Pokemon4.jpg");
+    // let pokemon6 = new Pokemon("vietnam","image/Pokemon3.jpg");
     //
     // let cardArray = [pokemon1,pokemon2,pokemon3,pokemon4,pokemon5,pokemon6];
     // cardArray.sort(() => 0.5 - Math.random());

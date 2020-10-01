@@ -1,63 +1,66 @@
 const cardArray = [
     {
         name: 'Pokemon1',
-        img: 'images/Pokemon1.png'
+        img: 'images/Pokemon1.jpg'
     },
     {
         name: 'Pokemon3',
-        img: 'images/Pokemon3.png'
+        img: 'images/Pokemon3.jpg'
     },
     {
         name: 'Pokemon4',
-        img: 'images/Pokemon4.png'
+        img: 'images/Pokemon4.jpg'
     },
     {
         name: 'Pokemon2',
-        img: 'images/Pokemon2.png'
+        img: 'images/Pokemon2.jpg'
     },
     {
         name: 'Pokemon5',
-        img: 'images/Pokemon5.png'
+        img: 'images/Pokemon5.jpg'
     },
     {
         name: 'Pokemon',
-        img: 'images/Pokemon.png'
+        img: 'images/Pokemon.jpg'
     },
     {
         name: 'Pokemon1',
-        img: 'images/Pokemon1.png'
+        img: 'images/Pokemon1.jpg'
     },
     {
         name: 'Pokemon3',
-        img: 'images/Pokemon3.png'
+        img: 'images/Pokemon3.jpg'
     },
     {
         name: 'Pokemon4',
-        img: 'images/Pokemon4.png'
+        img: 'images/Pokemon4.jpg'
     },
     {
         name: 'Pokemon2',
-        img: 'images/Pokemon2.png'
+        img: 'images/Pokemon2.jpg'
     },
     {
         name: 'Pokemon5',
-        img: 'images/Pokemon5.png'
+        img: 'images/Pokemon5.jpg'
     },
     {
         name: 'Pokemon',
-        img: 'images/Pokemon.png'
+        img: 'images/Pokemon.jpg'
     }
 ]
 cardArray.sort(() => 0.5 - Math.random());
-let time = 60;
+let time = 30;
 let success = false;
 setInterval(function () {
     if (time > 0 && success == false) {
         time -= 1;
-        document.getElementById('time').innerText = "thời gian còn lại    :" + time;
+        document.getElementById('time').innerText = "Thời gian còn lại    :" + time;
+        document.getElementById("score").innerHTML = time ;
         if (time == 0 && success == false) {
-            confirm('fail');
-            return;
+            // confirm('fail');
+            if (confirm("Ban co muon choi lai ko")) {
+                window.location.reload();
+            }
         }
     }
 }, 1000)

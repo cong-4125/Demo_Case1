@@ -26,6 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CaseStudy_Module1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -48,7 +49,7 @@
       <workItem from="1601427855041" duration="9595000" />
       <workItem from="1601447592477" duration="8669000" />
       <workItem from="1601477055215" duration="8883000" />
-      <workItem from="1601513844583" duration="1696000" />
+      <workItem from="1601513844583" duration="6316000" />
     </task>
     <servers />
   </component>
@@ -56,10 +57,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1601514606672">
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1601520194439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601514606672" />
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601520194439" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1601477124815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
